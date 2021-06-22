@@ -14,7 +14,7 @@ export const styles = StyleSheet.create({
   },
   content: {
     marginTop: -40,
-    paddingHorizontal: 50,
+    paddingHorizontal: 30,
   },
   title: {
     color: theme.colors.heading,

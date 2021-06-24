@@ -16,7 +16,7 @@ export function Profile() {
           <Text style={styles.username}>Mateus</Text>
         </View>
 
-        <Text style={styles.message}>Hoje é dia de vitória</Text>
+        <Text style={styles.message}>Hoje é dia de Programar 🥰</Text>
       </View>
     </View>
   );

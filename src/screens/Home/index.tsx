@@ -53,11 +53,18 @@ export function Home() {
     navigation.navigate("AppointmentDetails");
   }
 
+  function handleAppointmentCreate() {
+    console.log("Button pressionado handleAppointment");
+    navigation.navigate("AppointmentCreate");
+  }
+
+  console.log("Entrei na tela Home");
+
   return (
     <Background>
       <View style={styles.header}>
         <Profile />
-        <ButtonAdd />
+        <ButtonAdd onPress={handleAppointmentCreate} />
       </View>
 
       <CategorySelect

@@ -54,11 +54,8 @@ export function Home() {
   }
 
   function handleAppointmentCreate() {
-    console.log("Button pressionado handleAppointment");
     navigation.navigate("AppointmentCreate");
   }
-
-  console.log("Entrei na tela Home");
 
   return (
     <Background>

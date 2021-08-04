@@ -54,7 +54,7 @@ export function Appointment({ data, ...rest }: Props) {
             </View>
 
             <View style={styles.playersInfo}>
-              <PlayerSvg fill={!owner ? primary : on} />
+              <PlayerSvg fill={owner ? primary : on} />
 
               <Text style={[styles.player, { color: owner ? primary : on }]}>
                 {owner ? "Anfitrião" : "Visitante"}
